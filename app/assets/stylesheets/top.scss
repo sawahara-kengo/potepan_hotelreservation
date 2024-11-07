@@ -35,7 +35,11 @@ main {
     text-align: center;
     flex-flow: column;
     color: #fff;
-    margin-top: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
 }
 
 form {
@@ -43,6 +47,10 @@ form {
     flex-flow: column;
     width: 20%;
     margin-top: 40px;
+}
+
+.main_message {
+    margin-top: 150px;
 }
 
 .main_form_items {
