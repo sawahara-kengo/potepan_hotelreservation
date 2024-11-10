@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'reservations/new' => 'reservations#new'
   get 'rooms/index' => 'rooms#index'
   get 'rooms/:id' => 'rooms#show'
   get '/' => 'home#top'
