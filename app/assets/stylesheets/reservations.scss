@@ -1,0 +1,23 @@
+// Place all the styles related to the reservations controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.reservations_new {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+//-----------------------------------------//
+.reservations_index {
+    margin: 0 5%;
+}
+
+.reservations_index h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
