@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'reservations/index' => 'reservations#index'
   get 'reservations/new' => 'reservations#new'
   get 'rooms/index' => 'rooms#index'
+  get 'rooms/new' => 'rooms#new'
   get 'rooms/:id' => 'rooms#show'
   get '/' => 'home#top'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
